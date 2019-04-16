@@ -8,6 +8,9 @@ class Comment extends Component {
           <span>{this.props.comment.username} </span>：
         </div>
         <p>{this.props.comment.content}</p>
+        <div>
+          content: 123
+        </div>
       </div>
     )
   }
